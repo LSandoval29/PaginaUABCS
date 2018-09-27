@@ -1,0 +1,218 @@
+body{
+	font-family: 'Lato',sans-serif;
+	margin: 0;
+}
+
+.main-header{
+	background-color:#
+}
+
+.logo{
+	background-color:#32618d;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+
+}
+
+.social{	
+	font-size:28px;
+	position:absolute;
+	top: 40px;
+	right: 30px;
+}
+
+.social a{
+	color: #8d9ebe;
+	margin-right: 10px;
+	text-decoration: none;
+}
+.main-menu{
+	text-align: center;
+}
+
+.main-menu ul{
+	list-style: none;
+}
+
+.main-menu ul li{
+	display: inline-block;
+	margin: 5px 10px;
+}
+
+.main-menu ul li a{
+	color: #1e3b71;
+	font-weight: 700;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	text-decoration: none;
+	transition: all 0.2s ease-in;
+
+
+}
+
+.main-menu ul li a:hover{
+	color:#8dabc2;
+	border-bottom: 2px solid #8dabc2;
+}
+
+.slider img{
+	width: 100%;
+
+}
+
+.container{
+	margin: 0 auto;
+	max-width: 1170px;
+	overflow: hidden;
+}
+
+.oferta-academica .container{
+	display: flex;
+	justify-content: space-around;
+}
+
+.title-section{¨/*Titulos*/
+	font-size: 30px;
+	text-align:center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.title-oferta-academica{
+	color:#32618D;
+}
+
+.card{
+	border: 1px solid #d6d2d2;
+	border-radius: 5px;
+	width: 300px;
+	overflow:hidden;
+	margin: 39px;
+}
+
+.card-hero{
+	position:relative;
+}
+
+.card-hero img{
+	width: 100%;
+
+}
+
+.btn-card-show{
+	background-color:#FFB606;
+	color: white;
+	display:none;
+	text-align: center;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: -10px;
+	margin-left: -50px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 20px;
+	width: 100px;
+	
+
+}
+
+.btn-card-show:hover{
+	background-color:#e0a006;
+}
+
+.card-hero:hover .btn-card-show{
+	display: block;
+
+}
+
+.card-title{
+	text-align: center;
+}
+
+.card-title::after{
+	content:'';
+	background-color:#1ca311;
+	height: 2px;
+	width: 60%;
+	display: block;
+	margin: 0 auto;/*Centrar*/
+	margin-top: 3px;
+
+}
+
+.card-list{
+	color: #999999;
+	list-style: none;
+	text-align: center;
+	padding-left: 0;
+}
+
+.card-list li{
+	padding-bottom: 5px;
+}
+
+.contact .container{
+	display: flex;
+	justify-content: space-between;
+}
+
+.title-contact{
+	background-color: #8DABC2;
+	color: #FFF;
+
+}
+
+.img-contact{
+	margin:0;
+}
+
+.img-contact img{
+	width: 100%;
+}
+
+.contact-form{
+	display: flex;
+	flex-direction: column;
+	padding: 0 20px 30px 20px;
+}
+
+.contact-form input[type="text"]{
+	display: block;
+}
+
+.form-control{
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+	width: 100%;
+	margin:7px 0;
+	padding: 7px 0;
+}
+
+.btn-contact{
+	border-radius: 5px;
+	color:#ffb606;
+	font-size: 15px;
+	background-color:#32618d;
+	padding-top: 10px;
+	padding-bottom:10px;
+}
+
+.footer{
+	margin-top: 150px;
+	padding: 5px;
+	color:#FFB606;
+	background-color:#32618D;
+	text-align: center;
+}
+
+/*Media Query*/
+@media screen and(max-width:768){
+
+
+}
+
